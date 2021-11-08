@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
 
+
                 if (Username.getText().toString().length()>0){
                     go_buttom.setBackgroundColor(getColor(R.color.black));
                 } else {
