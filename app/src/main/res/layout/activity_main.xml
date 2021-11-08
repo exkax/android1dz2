@@ -112,6 +112,17 @@
 
         />
 
+    <TextView
+        android:id="@+id/new_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140sp"
+        android:layout_marginTop="20dp"
+        android:text="NEW USER? SIGN UP"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/go" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
